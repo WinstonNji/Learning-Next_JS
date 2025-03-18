@@ -1,5 +1,13 @@
+import "./global.css";
+import Link from "next/link";
+
+
 export default function Home () {
     return (
-        <h1 className="text-6xl">Welcome Home</h1>
+        <>
+            <h1 className="text-3xl ">Welcome Home</h1>
+            <Link href="/Blog">Blog</Link>
+        </>
+        
     )
 }
