@@ -6,7 +6,6 @@ export default function ProductLanding(){
         <ul>
             <li> 
                 <Link href={`/Products/${productId}`} replace>Product 1</Link>
-                <Link>Place Order</Link>
             </li>
             <li><Link href={`/Products/${productId}`} replace>Product 2</Link></li>
             <li><Link href={`/Products/${productId}`} replace>Product 3</Link></li>
